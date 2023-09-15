@@ -20,7 +20,7 @@ float ang = 0;
 void draw() {
   background(0);
   noStroke();
-  ang += 0.2;
+  ang += 0.5;
   for (int y = startY; y <= endY; y+=2*scaleSizeY){
     float b = 0;
     if (y <= endY/2.0)
